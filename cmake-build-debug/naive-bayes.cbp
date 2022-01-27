@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="naive-bayes"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\proj\;CMake Files\..\..\proj\cmake\;CMake Files\..\..\proj\cmake\modules\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\Boost-1.75.0\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\boost_headers-1.75.0\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\boost_program_options-1.75.0\;CMake Files\..\..\lib\;CMake Files\..\..\lib\macosx\;CMake Files\..\..\lib\macosx\Debug\;CMake Files\..\..\cmake-build-debug\;CMake Files\..\..\cmake-build-debug\lib\;CMake Files\..\..\cmake-build-debug\lib\macosx\;CMake Files\..\..\cmake-build-debug\lib\macosx\Debug\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sketchpad-classifier">
+				<Option output="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Debug/sketchpad-classifier/sketchpad-classifier.app/Contents/MacOS/sketchpad-classifier" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/include"/>
+					<Add directory="/Users/khushiduddi/Downloads/Cinder/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 sketchpad-classifier"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sketchpad-classifier/fast">
+				<Option output="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Debug/sketchpad-classifier/sketchpad-classifier.app/Contents/MacOS/sketchpad-classifier" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/include"/>
+					<Add directory="/Users/khushiduddi/Downloads/Cinder/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 sketchpad-classifier/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="train-model">
+				<Option output="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/train-model" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_PROGRAM_OPTIONS_DYN_LINK"/>
+					<Add directory="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 train-model"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="train-model/fast">
+				<Option output="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/train-model" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_PROGRAM_OPTIONS_DYN_LINK"/>
+					<Add directory="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 train-model/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="naive-bayes-test">
+				<Option output="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Debug/naive-bayes-test/naive-bayes-test.app/Contents/MacOS/naive-bayes-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/include"/>
+					<Add directory="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/_deps/catch2-src/single_include"/>
+					<Add directory="/Users/khushiduddi/Downloads/Cinder/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 naive-bayes-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="naive-bayes-test/fast">
+				<Option output="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Debug/naive-bayes-test/naive-bayes-test.app/Contents/MacOS/naive-bayes-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/include"/>
+					<Add directory="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/_deps/catch2-src/single_include"/>
+					<Add directory="/Users/khushiduddi/Downloads/Cinder/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 naive-bayes-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/apps/cinder_app_main.cc">
+			<Option target="sketchpad-classifier"/>
+		</Unit>
+		<Unit filename="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/apps/train_model_main.cc">
+			<Option target="train-model"/>
+		</Unit>
+		<Unit filename="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/src/core/digit_classifier.cc">
+			<Option target="sketchpad-classifier"/>
+			<Option target="train-model"/>
+			<Option target="naive-bayes-test"/>
+		</Unit>
+		<Unit filename="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/src/core/model.cpp">
+			<Option target="sketchpad-classifier"/>
+			<Option target="train-model"/>
+			<Option target="naive-bayes-test"/>
+		</Unit>
+		<Unit filename="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/src/core/sample.cpp">
+			<Option target="sketchpad-classifier"/>
+			<Option target="train-model"/>
+			<Option target="naive-bayes-test"/>
+		</Unit>
+		<Unit filename="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/src/visualizer/naive_bayes_app.cc">
+			<Option target="sketchpad-classifier"/>
+			<Option target="naive-bayes-test"/>
+		</Unit>
+		<Unit filename="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/src/visualizer/sketchpad.cc">
+			<Option target="sketchpad-classifier"/>
+			<Option target="naive-bayes-test"/>
+		</Unit>
+		<Unit filename="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/tests/naive_bayes_test_file.cc">
+			<Option target="naive-bayes-test"/>
+		</Unit>
+		<Unit filename="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/tests/test_main.cc">
+			<Option target="naive-bayes-test"/>
+		</Unit>
+		<Unit filename="/Users/khushiduddi/Downloads/Cinder/samples/data/CinderApp.icns">
+			<Option target="sketchpad-classifier"/>
+			<Option target="naive-bayes-test"/>
+		</Unit>
+		<Unit filename="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/../../proj/cmake/configure.cmake">
+			<Option virtualFolder="CMake Files\..\..\proj\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/../../proj/cmake/utilities.cmake">
+			<Option virtualFolder="CMake Files\..\..\proj\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/../../proj/cmake/modules/cinderMakeApp.cmake">
+			<Option virtualFolder="CMake Files\..\..\proj\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/../../../../../../usr/local/lib/cmake/BoostDetectToolset-1.75.0.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/../../../../../../usr/local/lib/cmake/Boost-1.75.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\Boost-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/../../../../../../usr/local/lib/cmake/Boost-1.75.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\Boost-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/../../../../../../usr/local/lib/cmake/boost_headers-1.75.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\boost_headers-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/../../../../../../usr/local/lib/cmake/boost_headers-1.75.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\boost_headers-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/../../../../../../usr/local/lib/cmake/boost_program_options-1.75.0/boost_program_options-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\boost_program_options-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/../../../../../../usr/local/lib/cmake/boost_program_options-1.75.0/boost_program_options-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\boost_program_options-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/../../../../../../usr/local/lib/cmake/boost_program_options-1.75.0/libboost_program_options-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\boost_program_options-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/../../../../../../usr/local/lib/cmake/boost_program_options-1.75.0/libboost_program_options-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\boost_program_options-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/../../../../../../usr/local/lib/cmake/boost_program_options-1.75.0/libboost_program_options-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\boost_program_options-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/../../../../../../usr/local/lib/cmake/boost_program_options-1.75.0/libboost_program_options-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\boost_program_options-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/../../lib/macosx/Debug/cinderConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\lib\macosx\Debug\"/>
+		</Unit>
+		<Unit filename="/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/../../cmake-build-debug/lib/macosx/Debug/cinderTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\cmake-build-debug\lib\macosx\Debug\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

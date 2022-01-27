@@ -1,0 +1,5 @@
+/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/CMakeFiles/sketchpad-classifier.dir
+/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/CMakeFiles/train-model.dir
+/Users/khushiduddi/Downloads/Cinder/my-projects/naive-bayes-kduddi2/cmake-build-debug/CMakeFiles/naive-bayes-test.dir
